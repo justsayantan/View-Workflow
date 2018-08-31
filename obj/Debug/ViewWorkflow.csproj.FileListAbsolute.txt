@@ -1,0 +1,16 @@
+C:\D\GitHub\ViewWorkflow\ViewWorkflow\bin\Debug\ViewWorkflow.dll
+C:\D\GitHub\ViewWorkflow\ViewWorkflow\bin\Debug\ViewWorkflow.pdb
+C:\D\GitHub\ViewWorkflow\ViewWorkflow\bin\Debug\Alchemy4Tridion.Plugins.Clients.CoreService.dll
+C:\D\GitHub\ViewWorkflow\ViewWorkflow\bin\Debug\Alchemy4Tridion.Plugins.dll
+C:\D\GitHub\ViewWorkflow\ViewWorkflow\bin\Debug\Newtonsoft.Json.dll
+C:\D\GitHub\ViewWorkflow\ViewWorkflow\bin\Debug\System.Net.Http.Formatting.dll
+C:\D\GitHub\ViewWorkflow\ViewWorkflow\bin\Debug\System.Web.Http.dll
+C:\D\GitHub\ViewWorkflow\ViewWorkflow\bin\Debug\Tridion.ContentManager.CoreService.Client.dll
+C:\D\GitHub\ViewWorkflow\ViewWorkflow\bin\Debug\Alchemy4Tridion.Plugins.pdb
+C:\D\GitHub\ViewWorkflow\ViewWorkflow\bin\Debug\Alchemy4Tridion.Plugins.xml
+C:\D\GitHub\ViewWorkflow\ViewWorkflow\bin\Debug\Newtonsoft.Json.xml
+C:\D\GitHub\ViewWorkflow\ViewWorkflow\bin\Debug\System.Net.Http.Formatting.xml
+C:\D\GitHub\ViewWorkflow\ViewWorkflow\bin\Debug\System.Web.Http.xml
+C:\D\GitHub\ViewWorkflow\ViewWorkflow\obj\Debug\ViewWorkflow.csprojResolveAssemblyReference.cache
+C:\D\GitHub\ViewWorkflow\ViewWorkflow\obj\Debug\ViewWorkflow.dll
+C:\D\GitHub\ViewWorkflow\ViewWorkflow\obj\Debug\ViewWorkflow.pdb

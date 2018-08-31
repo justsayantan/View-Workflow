@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<plugin xmlns:c="https://www.alchemywebstore.com/configuration/definitions" xmlns="http://www.alchemywebstore.com/">
+  <author>Sayantan Basu</author>
+  <authorId>56ea7085e4de02057c9cf1b4</authorId>
+  <authorType>Individual</authorType>
+  <id>5b7ab2efe4de0215c8f209d2</id>
+  <name>View_Workflow</name>
+  <description><![CDATA[HelloWorld Sample Alchemy4Tridion plugin project.]]></description>
+  <version>1.0.0.0</version>
+  <references />
+  <settings>
+    <SomeKey>SomeValue</SomeKey>
+    <AnotherKey>AnotherValue</AnotherKey>
+    <Favorites client="true">
+      <Fav>One</Fav>
+      <Fav>Two</Fav>
+    </Favorites>
+    <IsAlsoEncrypted encrypt="true">IsAlsoEncryptedValue</IsAlsoEncrypted>
+    <IsAlsoClientEncrypted encrypt="true" client="true">AClientEncryptedValue</IsAlsoClientEncrypted>
+    <!-- The following settings within the <client /> element can be retrieved by th eclient api. -->
+    <!-- You can also set client settings w/o the <client /> element by adding a client="true" attribute -->
+    <client>
+    </client>
+    <!-- The following settings within the <encrypt /> element will have their values encrypted. -->
+    <!-- You can also encrypt other settings w/o the <encrypt /> element by adding an encrypt="true attribute -->
+    <encrypt>
+      <SomePassword>PleaseEncryptMe</SomePassword>
+    </encrypt>
+  </settings>
+  <versionId>5b7ab2efe4de0215c8f209d3</versionId>
+  <frameworkVersion>1.0.1.1</frameworkVersion>
+  <AlchemyUploadDialog />
+</plugin>

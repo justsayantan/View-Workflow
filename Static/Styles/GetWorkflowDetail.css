@@ -1,0 +1,21 @@
+﻿/**
+ * Style the context menu button... 
+ */
+.contextmenu #Get_Workflow_Detail > .image {
+    background-image: url('${ImgUrl}ViewWorkflow-16x16.png');
+}
+
+/**
+ * Style the ribbon tool bar button... #
+ */
+/* main icon in full ribbon mode */
+.ribbontoolbar #GetWorkflowDetailButton.button .image, .ribbontoolbar #GetWorkflowDetailButton.button .image
+{
+    background-image: url('${ImgUrl}ViewWorkflow-32x32.png');
+}
+
+/* main icon in minimized ribbon mode */
+.ribbontoolbar.minimized #GetWorkflowDetailButton.button .image, .ribbontoolbar.minimized #GetWorkflowDetailButton.button .image
+{
+    background-image: url('${ImgUrl}ViewWorkflow-16x16.png');
+}
