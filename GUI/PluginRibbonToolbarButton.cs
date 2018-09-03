@@ -7,7 +7,7 @@ namespace ViewWorkflow.GUI
         public PluginRibbonToolbarButton()
         {
             // The unique identifier used for the html element created.
-            AssignId = "GetWorkflowDetail";
+            AssignId = "GetWorkflowDetailButton";
 
             // The name of the command to execute when clicked
             Command = "GetWorkflowDetail";

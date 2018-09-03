@@ -106,13 +106,8 @@ Canvas.prototype.drawWorkflow = function (processInstance, iconMapping) {
     wrapper.appendChild(canvasContext.canvas);
     if (processInstance) {
         if (processInstance.workflowTitle) {
-            canvasContext.font = "20px Verdana";
-            var gradient = canvasContext.createLinearGradient(0, 0, this.wdth, 0);
-            gradient.addColorStop("0", "magenta");
-            gradient.addColorStop("0.5", "blue");
-            gradient.addColorStop("1.0", "red");
-            canvasContext.fillStyle = gradient;
-            canvasContext.fillText(processInstance.workflowTitle, this.wdth / 2.5, 25);
+            console.log(processInstance);
+            wrapTitleText(canvasContext, processInstance.workflowTitle, this.wdth / 2.5, 20, 250, 18);
             var actions = processInstance.actions;
             if (actions) {
                 actions.forEach(function (action) {
@@ -173,6 +168,31 @@ var PIXEL_RATIO = (function () {
 function wrapText(context, text, x, y, maxWidth, lineHeight) {
     context.fillStyle = "black";
     context.font = "8px Verdana";
+    var words = text.split(' ');
+    var line = '';
+    for (var n = 0; n < words.length; n++) {
+        var testLine = line + words[n] + ' ';
+        var metrics = context.measureText(testLine);
+        var testWidth = metrics.width;
+        if (testWidth > maxWidth && n > 0) {
+            context.fillText(line, x, y);
+            line = words[n] + ' ';
+            y += lineHeight;
+        }
+        else {
+            line = testLine;
+        }
+    }
+    context.fillText(line, x, y);
+}
+
+function wrapTitleText(context, text, x, y, maxWidth, lineHeight) {
+    context.font = "20px Verdana";
+    var gradient = context.createLinearGradient(0, 0, x * 2, 0);
+    gradient.addColorStop("0", "magenta");
+    gradient.addColorStop("0.5", "blue");
+    gradient.addColorStop("1.0", "red");
+    context.fillStyle = gradient;
     var words = text.split(' ');
     var line = '';
     for (var n = 0; n < words.length; n++) {
