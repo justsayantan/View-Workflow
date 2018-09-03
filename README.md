@@ -6,7 +6,7 @@ This document is going to describe the functional details.
 ## Team Members:
 
 * Sayantan Basu (justsayantan@gmail.com)
-* Neetesh Narvaria ()
+* Neetesh Narvaria (neetesh46@gmail.com)
 
 ## Functional Requirements:
 Most of the customer wants to visualize the workflow on the CMS only, which is not out of the box feature as of now.
