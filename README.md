@@ -19,7 +19,7 @@ This Plugin is used the Alchemy4Tridion framework.
 You need to follow below steps to use this in your current project
 1. Download & Install Alchemy(Alchemy4Tridion) in your CMS.
 2. Download the project from git. 
-3. Go to Final_ATK folder.
+3. Go to Final_A4T folder.
 4. Install the ViewWorkflow.a4t file (Drag and Drop).
 
 ## Support
