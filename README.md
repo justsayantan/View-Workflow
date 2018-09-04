@@ -17,7 +17,8 @@ Customer always prefers to envision the workflow in the CMS. Nevertheless as of 
 This Plugin is used the Alchemy framework. 
 
 ## How To Use:
-You need to follow below steps to use this in your current project
+This plugin is not fully ready yet. That is why not available in the webstore. You need to follow below steps to use this in your current project -
+
 1. Download & Install Alchemy(Alchemy4Tridion) in your CMS.
 2. Download this project from git. 
 3. Go to Final_A4T folder.
@@ -29,12 +30,3 @@ In case of any support please directly send a mail to us.
 ## Documentation
 There is no other document apart from this.
 
-## Branches and Contributions
-
-We are using the following branching strategy:
-
-* master - Represents the latest stable version. 
-* develop - Represents the latest development version.
-
-You can also contribute in case you want to add more features on it. If you wish to submit a Pull Request, it should normally be submitted on the develop branch, so it can be incorporated in the upcoming release. 
-Also please report issue or further features you want us to add on this. 
